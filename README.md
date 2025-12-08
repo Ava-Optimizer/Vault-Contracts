@@ -10,19 +10,18 @@
 
 
 ## Run
-1. 
 ```bash
 forge install
 ```
-2. 
+
 ```bash
 forge build
 ```
-3. 
+
 ```bash
 forge test
 ```
-4. 
+
 ```bash
 forge coverage
 ```
