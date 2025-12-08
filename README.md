@@ -41,21 +41,11 @@ Avalanche Fuji Testnet
 forge script scripts/deployAVAVault.s.sol:deployAVAVault --rpc-url <RPC_URL> --private-key <YOUR_PRIVATE_KEY> --broadcast --etherscan-api-key <YOUR_ETHERSCAN_API_KEY> --verify
 ```
 
-## Agents
-
-1. Oracle Specialist (Nova)
-
-Agent Nft - https://testnet.snowtrace.io/nft/0x9FC0C2E42d698B177853660fbb12B6A53A26B5DC/2?chainid=43113&type=erc721
-
-2. Vault Manager (Aria)
-
-Agent Nft - https://testnet.snowtrace.io/nft/0x9FC0C2E42d698B177853660fbb12B6A53A26B5DC/1?chainid=43113&type=erc721
-
 ## Fuji Deployments
 
 ### ERC 8004
 
-1. Deployed ERC 8004
+Deployed ERC 8004
 
 ``` bash
 
@@ -64,16 +54,8 @@ Agent Nft - https://testnet.snowtrace.io/nft/0x9FC0C2E42d698B177853660fbb12B6A53
   ValidationRegistry:  0x2694f3Af9603Bc70c2D0e7F345185111E9dDaE4C
 
 ```
-2. Agents Created
 
-```bash
-  Registry Address: 0x9FC0C2E42d698B177853660fbb12B6A53A26B5DC
-  Aria registered with Agent ID: 1
-  Nova registered with Agent ID: 2
-
-```
-
-## Vault
+### Vault
 
 ```bash
 
